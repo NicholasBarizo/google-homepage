@@ -49,6 +49,9 @@ table {
 
 
 
+a{
+    text-decoration:none;
+}
 header{
     justify-content: center;
     margin: 0 auto 0 auto;
@@ -73,6 +76,13 @@ header{
     height: 80%;
     border: none;
 }
+input[type=text]{
+    font-size:16px;
+}
+#mic{
+    height:25px;
+    justify-self: end;
+}
 #headerButtons{
     padding: 30px;
 }
@@ -86,15 +96,42 @@ header{
 nav{
     display: flex;
     flex-direction: row;
-    margin: 20px;
+    align-content: center;
+    margin: 10px;
 }
 #signIn{
+    /*Button Design*/
     background-color: #4386f9;
     color: white;
     padding: 6px 18px 6px 18px;
     border: none;
     border-radius: 2px;
     font-weight: 800;
+
+    align-self: center;
+}
+.navA{
+    color: #000;
+    font-family: arial;
+    font-size: 13px;
+    text-decoration: none;
+    padding: 10px;
+}
+#leftNav{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+#rightNav{
+    margin: 0 0 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#listIcon{
+    height: 24px;
+    width: 24px;
 }
 body{
     background-color: #FFF;
@@ -116,26 +153,11 @@ footer{
     margin: 0 0 0 auto;
     padding: 0 18px 0 0;
 }
-.navA{
-    color: #000;
-    font-family: arial;
-    font-size: 13px;
-    text-decoration: none;
-    padding: 10px;
-}
+
 .footerA{
     color: #5f6368;
     text-decoration: none;
     font-family: arial;
     font-size: 13px;
     padding: 0 0 0 18px;
-}
-#rightNav{
-    margin: 0 0 0 auto;
-}
-
-#listIcon{
-    background-color:  #3f3f3f;
-    height: 14px;
-    width: 14px;
 }
