@@ -61,6 +61,12 @@ header{
 #googleLogo{
     margin-bottom: 30px;
 }
+#searchIcon{
+    height:20px;
+    width: 20px;
+    opacity: .4;
+    margin-left: 8px;
+}
 #searchBarBorder{
     height:40px;
     width: 600px;
@@ -68,13 +74,20 @@ header{
     border-radius: 20px;
     border: 1px solid #dfe1e5;
     display:flex;
+    flex-direction: row;
     align-items: center;
+    justify-content: right;
 }
 #searchBar{
-    margin-left: 50px;
-    width: 480px;
+    margin-left: 15px;
+    width: 7180px;
     height: 80%;
     border: none;
+    background: #FFF;
+}
+#searchBar: focus{
+    border: none;
+}
 }
 input[type=text]{
     font-size:16px;
@@ -121,6 +134,7 @@ nav{
     display:flex;
     flex-direction: row;
     align-items: center;
+    margin-left: 10px;
 }
 #rightNav{
     margin: 0 0 0 auto;
