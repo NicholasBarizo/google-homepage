@@ -78,6 +78,9 @@ header{
     align-items: center;
     justify-content: right;
 }
+#searchBarBorder:hover{
+    box-shadow: 0 0 5px 3px hsl(0, 0%, 90%);
+}
 #searchBar{
     margin-left: 10px;
     width: 100%;
@@ -90,7 +93,7 @@ header{
 }
 
 input[type=text]{
-    font-size:16px;
+    font-size:14px;
 }
 #mic{
     height:25px;
@@ -113,28 +116,29 @@ input[type=text]{
     color: black;
     border: 1px solid hsl(0, 0%, 70%);
 }
+.headerButton:active{
+    border: 1px solid hsl(220, 80%, 60%);
+}
 nav{
     display: flex;
     flex-direction: row;
     align-content: center;
     margin: 10px;
 }
-#signIn{
-    /*Button Design*/
-    background-color: #4386f9;
-    color: white;
-    padding: 6px 18px 6px 18px;
-    border: none;
-    border-radius: 2px;
-    font-weight: 800;
 
-    align-self: center;
-}
 .navA{
-    color: #000;
+    color: black;
     font-family: arial;
     font-size: 13px;
     text-decoration: none;
+    padding: 10px;
+}
+.navA:hover{
+    color:black;
+    opacity: 80%;
+    text-decoration: underline;
+}
+.navIcon{
     padding: 10px;
 }
 #leftNav{
@@ -153,6 +157,25 @@ nav{
 #listIcon{
     height: 24px;
     width: 24px;
+    opacity: 50%;
+}
+#listIcon:hover{
+    opacity: 100%;
+}
+#signIn{
+    /*Button Design*/
+    background-color: #4386f9;
+    color: white;
+    padding: 6px 18px 6px 18px;
+    border: none;
+    border-radius: 2px;
+    font-weight: 800;
+    box-shadow: 1;
+
+    align-self: center;
+}
+#signIn:active{
+    background-color: #397ff9;
 }
 body{
     background-color: #FFF;
@@ -181,4 +204,10 @@ footer{
     font-family: arial;
     font-size: 13px;
     padding: 0 0 0 18px;
+}
+.footerA:hover{
+    text-decoration: underline;
+}
+.footerA:active{
+    color: hsl(20, 80%, 50%)
 }
