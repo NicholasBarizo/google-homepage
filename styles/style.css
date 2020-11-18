@@ -1,0 +1,141 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+header{
+    justify-content: center;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    margin: 125px auto 0 auto;
+}
+#googleLogo{
+    margin-bottom: 30px;
+}
+#searchBarBorder{
+    height:40px;
+    width: 600px;
+    margin: 0 auto 0 auto;
+    border-radius: 20px;
+    border: 1px solid #dfe1e5;
+    display:flex;
+    align-items: center;
+}
+#searchBar{
+    margin-left: 50px;
+    width: 480px;
+    height: 80%;
+    border: none;
+}
+#headerButtons{
+    padding: 30px;
+}
+.headerButton{
+    padding: 10px;
+    border-color: transparent;
+    border-radius: 5px;
+    background-color: #F1F1F1;
+    width: 130px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+#signIn{
+    background-color: #4386f9;
+    color: white;
+    padding: 6px 18px 6px 18px;
+    border: none;
+    border-radius: 2px;
+    font-weight: 800;
+}
+body{
+    background-color: #FFF;
+    min-height: 100%;
+}
+footer{
+    display: flex;
+    background-color: #f2f2f2;
+    height: 40px;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+#leftFooter{
+    padding: 5px;
+}
+#rightFooter{
+    margin: 0 0 0 auto;
+    padding: 0 18px 0 0;
+}
+.navA{
+    color: #000;
+    font-family: arial;
+    font-size: 13px;
+    text-decoration: none;
+    padding: 10px;
+}
+.footerA{
+    color: #5f6368;
+    text-decoration: none;
+    font-family: arial;
+    font-size: 13px;
+    padding: 0 0 0 18px;
+}
+#rightNav{
+    margin: 0 0 0 auto;
+}
+
+#listIcon{
+    background-color:  #3f3f3f;
+    height: 14px;
+    width: 14px;
+}
