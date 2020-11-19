@@ -49,9 +49,14 @@ table {
 
 
 
+body{
+    background-color: #FFF;
+    min-height: 100%;
+}
 a{
     text-decoration:none;
 }
+/* || HEADER */
 header{
     justify-content: center;
     margin: 0 auto 0 auto;
@@ -119,6 +124,9 @@ input[type=text]{
 .headerButton:active{
     border: 1px solid hsl(220, 80%, 60%);
 }
+
+/* || NAV */
+
 nav{
     display: flex;
     flex-direction: row;
@@ -177,10 +185,9 @@ nav{
 #signIn:active{
     background-color: #397ff9;
 }
-body{
-    background-color: #FFF;
-    min-height: 100%;
-}
+
+/* || FOOTER */
+
 footer{
     display: flex;
     background-color: #f2f2f2;
@@ -210,4 +217,26 @@ footer{
 }
 .footerA:active{
     color: hsl(20, 80%, 50%)
+}
+
+@media (max-width: 800px){
+    footer{
+        height: 80px;
+    }
+    #leftFooter{
+        display: flex;
+        position: absolute;
+        bottom: 15%;
+        left: 0;
+        right: 0;
+        justify-content: center;
+    }
+    #rightFooter{
+        display: flex;
+        position: absolute;
+        bottom: 65%;
+        left: 0;
+        right: 0;
+        justify-content: center;
+    }
 }
