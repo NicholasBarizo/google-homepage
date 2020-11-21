@@ -1,1 +1,1 @@
-# google-homepage
+First project using recently learned CSS and HTML. Shows usage of flexbox and all the tags needed to replicate the Google homepage.
