@@ -95,6 +95,7 @@ header{
 }
 #searchBar:focus{
     border: none;
+    outline: none;
 }
 
 input[type=text]{
@@ -123,6 +124,9 @@ input[type=text]{
 }
 .headerButton:active{
     border: 1px solid hsl(220, 80%, 60%);
+}
+.headerButton:focus{
+    outline: none;
 }
 
 /* || NAV */
