@@ -189,6 +189,9 @@ nav{
 #signIn:active{
     background-color: #397ff9;
 }
+#signIn:focus{
+    outline: none;
+}
 
 /* || FOOTER */
 
